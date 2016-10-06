@@ -23,7 +23,7 @@ class RangeOfMotion:
         parent.acknowledgementText = """
         """  # replace with organization, grant and thanks.
 
-        parent.icon = qt.QIcon("%s/running.png" % motion.ICON_DIR)
+        parent.icon = qt.QIcon("%s/arrow.png" % motion.ICON_DIR)
 
         self.parent = parent
 
